@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="join.css">
+  </head>
+  <body>
+    <h1 id="header" name="header"></h1>
+    <div name="addToRoom" id="addToRoom">
+      Enter Name: <input type="text" id="name"><br/>
+      Enter Room: <input type="text" id="room"><br/>
+      <button onclick="join()">Join Room</button>
+    </div>
+
+    <div id="gameScreen" name="gameScreen" hidden>
+      This is the game lolololololol
+      <button onclick="answer('A')">A</button>
+      <button onclick="answer('B')">B</button>
+      <button onclick="answer('C')">C</button>
+      <button onclick="answer('D')">D</button>
+
+      
+      
+    </div>
+    
+    <ul name="people" id="people"></ul>
+
+    <script src="/socket.io/socket.io.js"></script> <!-- use the library -->
+    <script src="/join.js"></script> <!-- use "script.js" file --> 
+  </body>
+</html>

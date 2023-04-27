@@ -1,0 +1,15 @@
+1. What is the World Wide Web?
+a. The intergalactic social connection of bots and spiders
+b. All the content of html pages, and the servers that host that content
+c. DNS lookup tables, that connect, for example, code.org to an IP address, like 32.34.123.99
+d. All the above
+2. What is the Internet?
+a. A series of interconnected computers, that connect other computers, through DNS and TCP/IP
+b. A design methodology, with scale in mind, with a set of rules for computers to communicate
+c. All the hardware, wires, routers, and equipment that connects computers, devices, cars, etc.
+d. All the above
+3. Who is Vint Cerf? What is he credited with?
+a. He expanded the design of the internet from 8bits (IPv4) to 16 bits (IPv6)
+b. He released the first expanded use of graphics on the web, and the first GIF, Nyan Cat
+c. Invented a way for computers to talk to another, even over long distances
+d. Invented the World Wide Web, along with Tim Berners-Lee

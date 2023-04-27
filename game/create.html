@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <h1 id="header" name="header"></h1>
+    <button type="button" onclick="startGame()" id="startbutton" name="startbutton">Start Game</button>
+    <ul name="people" id="people"></ul>
+
+    <div id="gameScreen" name="gameScreen" hidden style="background-color: cyan">
+      game is here
+      <button onclick="start(15.)">Start Countdown</button>
+      <button onclick="end()">End Game</button>
+      <p id="timeDisplay"></p>
+      <progress id="prog" value="100" max="100" style="width: 100%;"> 100% </progress>
+      <p id="score"></p>
+      <button onclick="getScore()">Get Score</button>
+
+      
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script> <!-- use the library -->
+    <script src="/create.js"></script> <!-- use "script.js" file --> 
+    <script src="/timer.js"></script>
+  </body>
+</html>
